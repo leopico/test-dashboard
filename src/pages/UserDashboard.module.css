@@ -10,6 +10,7 @@
   overflow: hidden;
   max-height: 100%;
 }
+
 .groupChild {
   position: absolute;
   top: 377px;
@@ -37,6 +38,7 @@
 .lagosNigeria,
 .melissaPeters {
   position: absolute;
+  left:30px;
   display: inline-block;
 }
 .lagosNigeria {
@@ -49,7 +51,8 @@
 }
 .melissaPeters {
   top: 0;
-  left: calc(50% - 92.28px);
+  left:30px;
+  /* left: calc(50% - 92.28px); */
   font-size: var(--font-size-5xl);
   font-weight: 600;
   color: var(--color-darkslategray);
@@ -62,7 +65,8 @@
 .interiorDesigner {
   position: absolute;
   top: 37px;
-  left: calc(50% - 78.49px);
+  left:30px;
+  /* left: calc(50% - 78.49px); */
   line-height: 87.52%;
   font-weight: 500;
   display: inline-block;
@@ -160,7 +164,7 @@
 .container,
 .groupParent {
   position: absolute;
-  top: 0;
+  top: 500px;
   left: calc(50% - 41.11px);
   width: 99.27px;
   height: 51.41px;
@@ -302,6 +306,7 @@
   background-color: transparent;
   width: 1440px;
   height: 1215px;
+  top:-250px;
   overflow: hidden;
   font-size: var(--font-size-5xl);
   color: var(--color-black);
@@ -503,7 +508,8 @@
 }
 .towardsPlanters {
   top: 81px;
-  left: calc(50% - 86.5px);
+  left: 50px;
+  /* left: calc(50% - 86.5px); */
   text-align: left;
   width: 174px;
   height: 20px;
