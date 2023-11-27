@@ -38,7 +38,6 @@ const UserDashboard = () => {
           <div className={styles.rectangleParent}>
             <div className={styles.groupInner} />
             <div className={styles.editProfile}>Edit profile</div>
-            <div className={styles.editProfile1}>Edit profile</div>
           </div>
         </div>
         <div className={styles.myForest}>My Forest</div>
@@ -56,6 +55,7 @@ const UserDashboard = () => {
           <img className={styles.vectorIcon1} alt="" src="/vector1.svg" />
         </div>
       </div>
+    <div className={styles.card_pri}>
       <div className={styles.card2}>
         <div className={styles.card2Child} />
         <div className={styles.card2Item} />
@@ -144,12 +144,14 @@ const UserDashboard = () => {
       <div className={styles.refiRewardsFrom}>ReFi Rewards From Next Level</div>
       <div className={styles.x6bd5d59a2aWrapper}>
         <div className={styles.x6bd5d59a2a}>0x6bd5d59a2a</div>
+ 
       </div>
       <img
         className={styles.greenCreativeGrowingSeedFoIcon}
         alt=""
         src="/green-creative-growing-seed-for-agriculture--farming--gardening-logoremovebgpreview-1@2x.png"
       />
+    </div>
     </div>
   );
 };
